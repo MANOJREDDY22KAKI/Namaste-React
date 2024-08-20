@@ -22,6 +22,13 @@
 .search {
     padding: 20px;
     margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A28B55;
+}
+.search :hover {
+    cursor: pointer;
 }
 
 .restaurant-card {
@@ -62,4 +69,35 @@
     color: white;
     margin: 20px;
     text-align: center;
+}
+
+.shimmer-container {
+    padding: 25px;
+    background-color: #A28B55;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.shimmer-card {
+    background-color: #E0E0E0;
+    border-radius: 6px;
+    width: 250px; 
+    padding: 15px;
+    border: 1px solid #e0e0e0; 
+    text-align: left; /* Aligns text to the left for better presentation */
+    word-wrap: break-word;
+}
+
+.login-btn {
+    background-color: #E0E0E0;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 10px
+    
+}
+
+.login-btn:hover {
+    cursor: pointer;
 }
