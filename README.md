@@ -18,3 +18,20 @@
 - code spliting
 - Tree shaking - remove unused code 
 - Different dev and production bundles
+
+# Namaste Food
+
+/**
+ * Header
+ * -Logo
+ * -NavItems
+ * Body
+ * -search
+ * -Restaurant cards
+ *  -Restarunt Items cards
+ * Footer
+ * -some links
+ *
+ *
+ *
+ */
